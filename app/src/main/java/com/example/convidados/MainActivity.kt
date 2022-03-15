@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
         val fab: FloatingActionButton = findViewById(R.id.fab)
         fab.setOnClickListener {
-            startActivity(Intent(applicationContext, GuestFormActivity::class.java))
+            startActivity(Intent(this, GuestFormActivity::class.java))
         }
 
         val drawerLayout: DrawerLayout = binding.drawerLayout

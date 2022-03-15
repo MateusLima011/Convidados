@@ -21,8 +21,8 @@ class GuestDataBaseHelper(context: Context) :
 
         private const val CREATE_TABLE_GUEST =
             ("Create Table " + DataBaseConstants.GUEST.TABLE_NAME + " ("
-                    + DataBaseConstants.GUEST.COLUMNS.ID + " interger primary key autoincrement, "
+                    + DataBaseConstants.GUEST.COLUMNS.ID + " integer primary key autoincrement, "
                     + DataBaseConstants.GUEST.COLUMNS.NAME + " text, "
-                    + DataBaseConstants.GUEST.COLUMNS.PRESENCE + " interger);")
+                    + DataBaseConstants.GUEST.COLUMNS.PRESENCE + " integer);")
     }
 }
