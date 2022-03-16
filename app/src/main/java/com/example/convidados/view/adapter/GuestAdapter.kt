@@ -11,7 +11,7 @@ import com.example.convidados.view.viewholder.GuestViewHolder
 class GuestAdapter : RecyclerView.Adapter<GuestViewHolder>() {
 
     private var mGuestList: List<GuestModel> = arrayListOf()
-    private lateinit var mListener: GuestListener
+    private lateinit var mListener:  GuestListener
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): GuestViewHolder {
         val item = LayoutInflater.from(parent.context).inflate(R.layout.row_guest, parent, false)

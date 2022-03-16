@@ -15,7 +15,6 @@ class GuestFormActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var button: Button
     private lateinit var editName: EditText
     private lateinit var presence: RadioButton
-    private lateinit var textName: TextView
     private lateinit var absent: RadioButton
     private var mGuestId: Int = 0
 
